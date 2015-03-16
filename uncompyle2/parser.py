@@ -549,7 +549,7 @@ class Parser(GenericASTBuilder):
         expr ::= LOAD_FAST
         expr ::= LOAD_NAME
         expr ::= LOAD_CONST
-        expr ::= LOAD_ASSERT
+        #expr ::= LOAD_ASSERT
         expr ::= LOAD_GLOBAL
         expr ::= LOAD_DEREF
         expr ::= LOAD_LOCALS
